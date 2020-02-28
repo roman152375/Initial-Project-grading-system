@@ -1,0 +1,10 @@
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Grading System.csprojAssemblyReference.cache
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Grading System.csproj.GenerateResource.cache
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Roman VS\Initial-Project-grading-system\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.report.resources

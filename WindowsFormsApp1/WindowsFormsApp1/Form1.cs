@@ -21,5 +21,32 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCaculate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            report newform = new report();
+            newform.ShowDialog();
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtName.Clear();
+
+        }
     }
 }
