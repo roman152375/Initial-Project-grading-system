@@ -33,7 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtProgram = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtModule = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,7 +42,7 @@
             this.txtEndDate = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtInstructor = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblFinalMark = new System.Windows.Forms.Label();
             this.txtFinalMark = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -62,8 +62,8 @@
             this.btnCaculate = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblGrade = new System.Windows.Forms.Label();
+            this.txtGrade = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -102,7 +102,7 @@
             this.txtName.Location = new System.Drawing.Point(118, 40);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(335, 20);
-            this.txtName.TabIndex = 3;
+            this.txtName.TabIndex = 2;
             this.txtName.Text = "Roman Islam Ratul";
             this.txtName.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -117,13 +117,13 @@
             this.label4.Text = "Program Name:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // textBox3
+            // txtProgram
             // 
-            this.textBox3.Location = new System.Drawing.Point(118, 72);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(335, 20);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "Microsoft .net Specialist Diploma";
+            this.txtProgram.Location = new System.Drawing.Point(118, 72);
+            this.txtProgram.Name = "txtProgram";
+            this.txtProgram.Size = new System.Drawing.Size(335, 20);
+            this.txtProgram.TabIndex = 3;
+            this.txtProgram.Text = "Microsoft .net Specialist Diploma";
             // 
             // label5
             // 
@@ -141,7 +141,7 @@
             this.txtModule.Location = new System.Drawing.Point(118, 104);
             this.txtModule.Name = "txtModule";
             this.txtModule.Size = new System.Drawing.Size(335, 20);
-            this.txtModule.TabIndex = 8;
+            this.txtModule.TabIndex = 4;
             this.txtModule.Text = "Developing and Implementing Windows Based Applications";
             // 
             // label6
@@ -160,7 +160,7 @@
             this.txtstDate.Location = new System.Drawing.Point(119, 132);
             this.txtstDate.Name = "txtstDate";
             this.txtstDate.Size = new System.Drawing.Size(334, 20);
-            this.txtstDate.TabIndex = 10;
+            this.txtstDate.TabIndex = 5;
             this.txtstDate.Text = "18 Feb 2020";
             this.txtstDate.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
@@ -180,7 +180,7 @@
             this.txtEndDate.Location = new System.Drawing.Point(118, 164);
             this.txtEndDate.Name = "txtEndDate";
             this.txtEndDate.Size = new System.Drawing.Size(335, 20);
-            this.txtEndDate.TabIndex = 12;
+            this.txtEndDate.TabIndex = 6;
             this.txtEndDate.Text = "13 Mar 2020";
             // 
             // label8
@@ -199,27 +199,27 @@
             this.txtInstructor.Location = new System.Drawing.Point(118, 196);
             this.txtInstructor.Name = "txtInstructor";
             this.txtInstructor.Size = new System.Drawing.Size(335, 20);
-            this.txtInstructor.TabIndex = 14;
+            this.txtInstructor.TabIndex = 7;
             this.txtInstructor.Text = "Eduardo Jaime";
             // 
-            // label9
+            // lblFinalMark
             // 
-            this.label9.BackColor = System.Drawing.SystemColors.Info;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label9.Location = new System.Drawing.Point(12, 232);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(100, 20);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "Final Mark:";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.lblFinalMark.BackColor = System.Drawing.SystemColors.Info;
+            this.lblFinalMark.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblFinalMark.Location = new System.Drawing.Point(12, 232);
+            this.lblFinalMark.Name = "lblFinalMark";
+            this.lblFinalMark.Size = new System.Drawing.Size(100, 20);
+            this.lblFinalMark.TabIndex = 15;
+            this.lblFinalMark.Text = "Final Mark:";
+            this.lblFinalMark.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblFinalMark.Click += new System.EventHandler(this.label9_Click);
             // 
             // txtFinalMark
             // 
             this.txtFinalMark.Location = new System.Drawing.Point(118, 230);
             this.txtFinalMark.Name = "txtFinalMark";
             this.txtFinalMark.Size = new System.Drawing.Size(335, 20);
-            this.txtFinalMark.TabIndex = 16;
+            this.txtFinalMark.TabIndex = 8;
             // 
             // label3
             // 
@@ -229,7 +229,7 @@
             this.label3.Location = new System.Drawing.Point(13, 317);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(440, 36);
-            this.label3.TabIndex = 17;
+            this.label3.TabIndex = 1;
             this.label3.Text = "Grading Calculator";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -241,7 +241,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(100, 20);
             this.label10.TabIndex = 18;
-            this.label10.Text = "Attendance :";
+            this.label10.Text = "Attendance(5%) :";
             this.label10.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtAttendance
@@ -249,7 +249,7 @@
             this.txtAttendance.Location = new System.Drawing.Point(119, 369);
             this.txtAttendance.Name = "txtAttendance";
             this.txtAttendance.Size = new System.Drawing.Size(138, 20);
-            this.txtAttendance.TabIndex = 19;
+            this.txtAttendance.TabIndex = 10;
             // 
             // label11
             // 
@@ -260,7 +260,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 20);
             this.label11.TabIndex = 20;
-            this.label11.Text = "Quiz 1:";
+            this.label11.Text = "Quiz 1(5%):";
             this.label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtQuiz1
@@ -268,7 +268,7 @@
             this.txtQuiz1.Location = new System.Drawing.Point(119, 402);
             this.txtQuiz1.Name = "txtQuiz1";
             this.txtQuiz1.Size = new System.Drawing.Size(138, 20);
-            this.txtQuiz1.TabIndex = 21;
+            this.txtQuiz1.TabIndex = 11;
             // 
             // label12
             // 
@@ -278,7 +278,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(100, 20);
             this.label12.TabIndex = 22;
-            this.label12.Text = "Quiz 2:";
+            this.label12.Text = "Quiz 2(5%):";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtQuiz2
@@ -286,7 +286,7 @@
             this.txtQuiz2.Location = new System.Drawing.Point(119, 432);
             this.txtQuiz2.Name = "txtQuiz2";
             this.txtQuiz2.Size = new System.Drawing.Size(138, 20);
-            this.txtQuiz2.TabIndex = 23;
+            this.txtQuiz2.TabIndex = 12;
             // 
             // label13
             // 
@@ -296,7 +296,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(100, 20);
             this.label13.TabIndex = 24;
-            this.label13.Text = "Quiz 3:";
+            this.label13.Text = "Quiz 3(5%):";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtQuiz3
@@ -304,7 +304,7 @@
             this.txtQuiz3.Location = new System.Drawing.Point(118, 459);
             this.txtQuiz3.Name = "txtQuiz3";
             this.txtQuiz3.Size = new System.Drawing.Size(139, 20);
-            this.txtQuiz3.TabIndex = 25;
+            this.txtQuiz3.TabIndex = 13;
             // 
             // label14
             // 
@@ -314,7 +314,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(100, 20);
             this.label14.TabIndex = 26;
-            this.label14.Text = "Project :";
+            this.label14.Text = "Project(15%) :";
             this.label14.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtProject
@@ -322,7 +322,7 @@
             this.txtProject.Location = new System.Drawing.Point(119, 494);
             this.txtProject.Name = "txtProject";
             this.txtProject.Size = new System.Drawing.Size(138, 20);
-            this.txtProject.TabIndex = 27;
+            this.txtProject.TabIndex = 14;
             // 
             // label15
             // 
@@ -332,7 +332,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(100, 20);
             this.label15.TabIndex = 28;
-            this.label15.Text = "Assignment :";
+            this.label15.Text = "Assignment(5%) :";
             this.label15.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtAssignment
@@ -340,7 +340,7 @@
             this.txtAssignment.Location = new System.Drawing.Point(119, 524);
             this.txtAssignment.Name = "txtAssignment";
             this.txtAssignment.Size = new System.Drawing.Size(138, 20);
-            this.txtAssignment.TabIndex = 29;
+            this.txtAssignment.TabIndex = 15;
             // 
             // label16
             // 
@@ -350,7 +350,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(100, 20);
             this.label16.TabIndex = 30;
-            this.label16.Text = "Final Exam";
+            this.label16.Text = "Final Exam(60%):";
             this.label16.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtFinal
@@ -358,7 +358,7 @@
             this.txtFinal.Location = new System.Drawing.Point(119, 556);
             this.txtFinal.Name = "txtFinal";
             this.txtFinal.Size = new System.Drawing.Size(138, 20);
-            this.txtFinal.TabIndex = 31;
+            this.txtFinal.TabIndex = 16;
             // 
             // btnCaculate
             // 
@@ -390,23 +390,23 @@
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
-            // label17
+            // lblGrade
             // 
-            this.label17.BackColor = System.Drawing.SystemColors.Info;
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label17.Location = new System.Drawing.Point(13, 261);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(100, 20);
-            this.label17.TabIndex = 35;
-            this.label17.Text = "Grade:";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblGrade.BackColor = System.Drawing.SystemColors.Info;
+            this.lblGrade.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblGrade.Location = new System.Drawing.Point(13, 261);
+            this.lblGrade.Name = "lblGrade";
+            this.lblGrade.Size = new System.Drawing.Size(100, 20);
+            this.lblGrade.TabIndex = 35;
+            this.lblGrade.Text = "Grade:";
+            this.lblGrade.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // textBox1
+            // txtGrade
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 261);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(334, 20);
-            this.textBox1.TabIndex = 36;
+            this.txtGrade.Location = new System.Drawing.Point(119, 261);
+            this.txtGrade.Name = "txtGrade";
+            this.txtGrade.Size = new System.Drawing.Size(334, 20);
+            this.txtGrade.TabIndex = 9;
             // 
             // Form1
             // 
@@ -414,8 +414,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(565, 672);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.txtGrade);
+            this.Controls.Add(this.lblGrade);
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnCaculate);
@@ -435,7 +435,7 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtFinalMark);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lblFinalMark);
             this.Controls.Add(this.txtInstructor);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtEndDate);
@@ -444,7 +444,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtModule);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtProgram);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
@@ -465,7 +465,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtProgram;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtModule;
         private System.Windows.Forms.Label label6;
@@ -474,7 +474,7 @@
         private System.Windows.Forms.TextBox txtEndDate;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtInstructor;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblFinalMark;
         private System.Windows.Forms.TextBox txtFinalMark;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label10;
@@ -494,8 +494,8 @@
         private System.Windows.Forms.Button btnCaculate;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnPrint;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblGrade;
+        private System.Windows.Forms.TextBox txtGrade;
     }
 }
 

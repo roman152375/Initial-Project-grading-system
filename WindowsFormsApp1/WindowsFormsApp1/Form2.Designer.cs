@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtGrade = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.txtFinalMark = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -49,12 +49,12 @@
             this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtGrade
             // 
-            this.textBox1.Location = new System.Drawing.Point(111, 306);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(334, 20);
-            this.textBox1.TabIndex = 52;
+            this.txtGrade.Location = new System.Drawing.Point(111, 306);
+            this.txtGrade.Name = "txtGrade";
+            this.txtGrade.Size = new System.Drawing.Size(334, 20);
+            this.txtGrade.TabIndex = 52;
             // 
             // label17
             // 
@@ -185,7 +185,7 @@
             this.txtName.Location = new System.Drawing.Point(110, 85);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(335, 20);
-            this.txtName.TabIndex = 38;
+            this.txtName.TabIndex = 1;
             this.txtName.Text = "Roman Islam Ratul";
             // 
             // label2
@@ -234,7 +234,7 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtGrade);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.txtFinalMark);
             this.Controls.Add(this.label9);
@@ -253,6 +253,7 @@
             this.Name = "report";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Report";
+            this.Load += new System.EventHandler(this.report_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,7 +261,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtGrade;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtFinalMark;
         private System.Windows.Forms.Label label9;

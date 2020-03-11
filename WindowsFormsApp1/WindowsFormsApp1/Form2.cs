@@ -12,9 +12,27 @@ namespace WindowsFormsApp1
 {
     public partial class report : Form
     {
+        double _finalmarks;
+        string _grade;
         public report()
         {
             InitializeComponent();
+        }
+        public report(double finalmarks, string grade)
+        {
+            _finalmarks = finalmarks;
+            _grade = grade ;
+            InitializeComponent();
+        }
+
+        private void report_Load(object sender, EventArgs e)
+        {
+
+            txtFinalMark.Text = _finalmarks.ToString();
+            txtFinalMark.Visible = true;
+
+            txtGrade.Text = _grade.ToString();
+            txtGrade.Visible = true;
         }
     }
 }
