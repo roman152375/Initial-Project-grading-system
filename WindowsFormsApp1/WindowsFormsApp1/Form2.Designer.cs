@@ -40,18 +40,20 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtModule = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtProgram = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtGrade
             // 
-            this.txtGrade.Location = new System.Drawing.Point(111, 306);
+            this.txtGrade.Location = new System.Drawing.Point(111, 326);
             this.txtGrade.Name = "txtGrade";
             this.txtGrade.Size = new System.Drawing.Size(334, 20);
             this.txtGrade.TabIndex = 52;
@@ -60,7 +62,7 @@
             // 
             this.label17.BackColor = System.Drawing.SystemColors.Info;
             this.label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label17.Location = new System.Drawing.Point(5, 306);
+            this.label17.Location = new System.Drawing.Point(5, 326);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(100, 20);
             this.label17.TabIndex = 51;
@@ -69,7 +71,7 @@
             // 
             // txtFinalMark
             // 
-            this.txtFinalMark.Location = new System.Drawing.Point(110, 275);
+            this.txtFinalMark.Location = new System.Drawing.Point(110, 295);
             this.txtFinalMark.Name = "txtFinalMark";
             this.txtFinalMark.Size = new System.Drawing.Size(335, 20);
             this.txtFinalMark.TabIndex = 50;
@@ -78,7 +80,7 @@
             // 
             this.label9.BackColor = System.Drawing.SystemColors.Info;
             this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label9.Location = new System.Drawing.Point(4, 277);
+            this.label9.Location = new System.Drawing.Point(4, 297);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(100, 20);
             this.label9.TabIndex = 49;
@@ -87,7 +89,7 @@
             // 
             // txtInstructor
             // 
-            this.txtInstructor.Location = new System.Drawing.Point(110, 241);
+            this.txtInstructor.Location = new System.Drawing.Point(110, 261);
             this.txtInstructor.Name = "txtInstructor";
             this.txtInstructor.Size = new System.Drawing.Size(335, 20);
             this.txtInstructor.TabIndex = 48;
@@ -97,7 +99,7 @@
             // 
             this.label8.BackColor = System.Drawing.SystemColors.Info;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label8.Location = new System.Drawing.Point(4, 242);
+            this.label8.Location = new System.Drawing.Point(4, 262);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 20);
             this.label8.TabIndex = 47;
@@ -106,7 +108,7 @@
             // 
             // txtEndDate
             // 
-            this.txtEndDate.Location = new System.Drawing.Point(110, 209);
+            this.txtEndDate.Location = new System.Drawing.Point(110, 229);
             this.txtEndDate.Name = "txtEndDate";
             this.txtEndDate.Size = new System.Drawing.Size(335, 20);
             this.txtEndDate.TabIndex = 46;
@@ -116,7 +118,7 @@
             // 
             this.label7.BackColor = System.Drawing.SystemColors.Info;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Location = new System.Drawing.Point(4, 209);
+            this.label7.Location = new System.Drawing.Point(4, 229);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 20);
             this.label7.TabIndex = 45;
@@ -125,7 +127,7 @@
             // 
             // txtstDate
             // 
-            this.txtstDate.Location = new System.Drawing.Point(111, 177);
+            this.txtstDate.Location = new System.Drawing.Point(111, 197);
             this.txtstDate.Name = "txtstDate";
             this.txtstDate.Size = new System.Drawing.Size(334, 20);
             this.txtstDate.TabIndex = 44;
@@ -135,7 +137,7 @@
             // 
             this.label6.BackColor = System.Drawing.SystemColors.Info;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Location = new System.Drawing.Point(4, 178);
+            this.label6.Location = new System.Drawing.Point(4, 198);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 20);
             this.label6.TabIndex = 43;
@@ -144,7 +146,7 @@
             // 
             // txtModule
             // 
-            this.txtModule.Location = new System.Drawing.Point(110, 149);
+            this.txtModule.Location = new System.Drawing.Point(110, 169);
             this.txtModule.Name = "txtModule";
             this.txtModule.Size = new System.Drawing.Size(335, 20);
             this.txtModule.TabIndex = 42;
@@ -154,26 +156,26 @@
             // 
             this.label5.BackColor = System.Drawing.SystemColors.Info;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Location = new System.Drawing.Point(4, 149);
+            this.label5.Location = new System.Drawing.Point(4, 169);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 20);
             this.label5.TabIndex = 41;
             this.label5.Text = "Module:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // textBox3
+            // txtProgram
             // 
-            this.textBox3.Location = new System.Drawing.Point(110, 117);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(335, 20);
-            this.textBox3.TabIndex = 40;
-            this.textBox3.Text = "Microsoft .net Specialist Diploma";
+            this.txtProgram.Location = new System.Drawing.Point(110, 137);
+            this.txtProgram.Name = "txtProgram";
+            this.txtProgram.Size = new System.Drawing.Size(335, 20);
+            this.txtProgram.TabIndex = 40;
+            this.txtProgram.Text = "Microsoft .net Specialist Diploma";
             // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.SystemColors.Info;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(4, 117);
+            this.label4.Location = new System.Drawing.Point(4, 137);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 20);
             this.label4.TabIndex = 39;
@@ -182,7 +184,7 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(110, 85);
+            this.txtName.Location = new System.Drawing.Point(110, 105);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(335, 20);
             this.txtName.TabIndex = 1;
@@ -192,7 +194,7 @@
             // 
             this.label2.BackColor = System.Drawing.SystemColors.Info;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(4, 85);
+            this.label2.Location = new System.Drawing.Point(4, 105);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 20);
             this.label2.TabIndex = 37;
@@ -212,7 +214,7 @@
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(12, 402);
+            this.label3.Location = new System.Drawing.Point(12, 421);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(162, 75);
             this.label3.TabIndex = 54;
@@ -220,17 +222,38 @@
             // 
             // label10
             // 
-            this.label10.Location = new System.Drawing.Point(265, 414);
+            this.label10.Location = new System.Drawing.Point(265, 433);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(162, 96);
             this.label10.TabIndex = 55;
             this.label10.Text = "_____________________\r\n\r\nStudent Signature";
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(110, 76);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(335, 20);
+            this.txtId.TabIndex = 56;
+            this.txtId.Text = "895IT";
+            // 
+            // lblId
+            // 
+            this.lblId.BackColor = System.Drawing.SystemColors.Info;
+            this.lblId.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblId.Location = new System.Drawing.Point(4, 76);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(100, 20);
+            this.lblId.TabIndex = 57;
+            this.lblId.Text = "ID :";
+            this.lblId.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // report
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 565);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -246,7 +269,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtModule);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtProgram);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
@@ -273,12 +296,14 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtModule;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtProgram;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label lblId;
     }
 }

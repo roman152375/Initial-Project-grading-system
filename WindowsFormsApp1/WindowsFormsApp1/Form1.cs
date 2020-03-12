@@ -78,7 +78,9 @@ namespace WindowsFormsApp1
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            report newform = new report(finalmarks, txtGrade.Text);
+            report newform = new report(txtId.Text, txtName.Text,
+                txtProgram.Text,txtModule.Text, txtstDate.Text,
+                txtEndDate.Text, txtInstructor.Text, finalmarks, txtGrade.Text);
             newform.ShowDialog();
         }
 
